@@ -1,12 +1,16 @@
 package jpu2016.gameframe;
 
+import java.util.Observable;
+
+import com.sun.prism.Graphics;
+
 public class GamePanel {
 
 	public GamePanel(IGraphicsBuilder graphicBuilder){
 		
 	}
 	
-	public update(Observable observer){
+	public void update(Observable observer){
 		
 	}
 	

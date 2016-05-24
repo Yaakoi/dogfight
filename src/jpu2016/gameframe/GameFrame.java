@@ -1,6 +1,10 @@
 package jpu2016.gameframe;
 
-public class GameFrame implements GamePanel {
+import java.util.Observable;
+
+import com.sun.glass.events.KeyEvent;
+
+public class GameFrame{
 
 	public GameFrame(String title, IEventPerformer performer, IGraphicsBuilder graphicBuilder, Observable observable){
 		
