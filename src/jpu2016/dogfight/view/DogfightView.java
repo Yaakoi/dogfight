@@ -9,8 +9,9 @@ public class DogfightView implements IViewSystem {
 	
 	public DogfightView(IOrderPerformer orderPerformer, IDogfightModel dogfightModel, Observable observable){
 		
-	}
+	}	
 	
+
 	private void run(){
 		
 	}
