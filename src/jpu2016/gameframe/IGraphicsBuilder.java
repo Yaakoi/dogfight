@@ -1,22 +1,19 @@
 package jpu2016.gameframe;
 
+import java.awt.image.BufferedImage;
 import java.awt.image.ImageObserver;
 
 import com.sun.prism.Graphics;
 
-public class IGraphicsBuilder {
+import jpu2016.dogfight.model.IDogfightModel;
 
-	public void applyModelToGraphics(Graphics graphics, ImageObserver observer){
-		
-	}
+public interface IGraphicsBuilder {
+
 	
-	public int getGlobalWidth(){
-		return 0;
-		
-	}
 	
-	public int getGlobalHeight(){
-		return 0;
-		
-	}
+	public void applyModelToGraphics(Graphics graphics, ImageObserver observer);
+	
+	public int getGlobalWidth();
+	
+	public int getGlobalHeight();
 }

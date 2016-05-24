@@ -4,6 +4,6 @@ import com.sun.glass.events.KeyEvent;
 
 public interface IEventPerformer {
 
-	public void eventPerforme(KeyEvent keyCode);
+	public void eventPerform(KeyEvent keyCode);
 	
 }
